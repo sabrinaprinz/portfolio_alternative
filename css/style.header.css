@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Open+Sans:300,400,600|Ubuntu:300,400,500,700|Assistant:200,300,400|Yantramanav:700,300,400');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+    display: block;
+}
+
+/* start */
+.selektor {
+  background-color: white;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.starter {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starter h1 {
+  color: black;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 70px;
+  text-align: left;
+  padding-bottom: 10vh;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.info {
+  bottom: 0;
+  position: absolute;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.info p {
+  text-align: left;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: black;
+  line-height: 21px;
+  letter-spacing: 0.15em;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.pfeil {
+  bottom: 0;
+  padding-bottom: 64px;
+  padding-left: 50px;
+  position: absolute;
+  float: right;
+}
+
+.pfeil:hover {
+  opacity: 0.6;
+}
+
+.pfeillinks {
+  width: 14px;
+  height: 2px;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 30px;
+  transform: rotate(-45deg) translate(6px, 0px);
+  position: absolute;
+
+}
+
+.pfeilrechts {
+  width: 14px;
+  height: 2px;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 30px;
+  transform: rotate(45deg) translate(-6px, 0px);
+  position: absolute;
+}
+/* intro END*/
