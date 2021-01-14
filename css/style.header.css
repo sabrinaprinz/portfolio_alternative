@@ -65,6 +65,15 @@ div {
   margin: 0;
 }
 
+footer p {
+  text-align: center;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+  line-height: 21px;
+}
+
 .pfeil {
   bottom: 10vh;
   left: calc(50vw - 10px);
